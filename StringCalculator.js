@@ -31,8 +31,5 @@ class StringCalculator {
       return numArray.reduce((acc, num) => acc + num, 0);
     }
   }
-
-
-  
 module.exports = StringCalculator;
   
