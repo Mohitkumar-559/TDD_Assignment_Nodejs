@@ -1,0 +1,10 @@
+{
+  "scripts": {
+  "test": "mocha",
+  "start": "node StringCalculator"
+},
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1"
+  }
+}
