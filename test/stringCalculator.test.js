@@ -47,6 +47,9 @@ describe("StringCalculator", () => {
     expect(calculator.add("//***\n1***2***3")).to.equal(6); // Multi-character delimiter
   });
   
+  it("should throw an exception for negative numbers", () => {
+    expect(() => calculator.add("-1,2,-3")).to.throw("Negative numbers not allowed: -1, -3");
+  });
 
   
   
