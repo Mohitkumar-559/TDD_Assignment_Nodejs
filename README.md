@@ -3,7 +3,7 @@
 ## A Simple String Calculator Using TDD Kata
 
 ## Purpose
-Learn to use Test Driven Development to create a program.
+Learn to use Test Driven Development to create a function in nodejs.
 
 ## Description
 This kata was created by Mohit kumar and is designed to help you learn TDD coding and refactoring.  
