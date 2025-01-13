@@ -23,6 +23,12 @@ describe("StringCalculator", () => {
     expect(calculator.add("1")).to.equal(1);
     expect(calculator.add("5")).to.equal(5);
   });
+  it("should return the sum of two numbers", () => {
+    expect(calculator.add("1,2")).to.equal(3);
+    expect(calculator.add("3,5")).to.equal(8);
+  });
+
+  
 
   
 
